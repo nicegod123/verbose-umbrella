@@ -59,8 +59,15 @@ button:hover { /* why is there a button? */
 	font-size: 28px;
 	padding-top: 5px;
 }
+
+.evnsmlerheader {
+	text-align: center;
+	font-size: 24px;
+	padding-top: 5px;
+}
+
 .ps {
 	text-align: center;
 	font-size: 18px;
-	padding-top: 20px;	
+	padding-top: 10px;	
 }
