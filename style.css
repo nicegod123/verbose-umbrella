@@ -35,8 +35,13 @@ a:hover { /* if hovering over the page linker, do smth */
 }
 
 button { /* what button? */
-	size: 10px;
-	color: blueviolet;
+	font-size: 50px;
+	background-color: blueviolet;
+}
+button:hover { /* why is there a button? */
+	background-color: aqua;
+	font-size: 200px;
+	letter-spacing: 200px;
 }
 
 .smlheader {
