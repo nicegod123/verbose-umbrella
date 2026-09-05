@@ -1,0 +1,57 @@
+body {
+	background-color: #1587BC;
+	font-family: Comic Sans MS, cursive;
+	/*
+	background-image: url('images/image.jpg'); 
+	/*
+	font-family: 'Comic Sans MS', cursive; /* font */
+	margin: 0; /* remove the invis gap around edges of screen */
+}
+
+h1 {
+	/* i moved the website name to the middle */
+	text-align: center;
+	
+}
+
+header { /* this is for the black bar */
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+a { /* for the links between the homepage, the information page, and the classes page */
+	font-size: 28px;
+	color:aqua;
+	text-decoration: none;
+
+}
+a:hover { /* if hovering over the page linker, do smth */
+	color: beige;
+	cursor: grab;
+	letter-spacing: 4px;
+	text-decoration: line-through;
+}
+
+button { /* what button? */
+	size: 10px;
+	color: blueviolet;
+}
+
+.smlheader {
+	text-align: center; /* to align the text */
+	font-size: 30px;	/* to size the text */
+	padding-top: 5px;	/* to space out the text between others */
+}
+
+.smlerheader {
+	text-align: center;
+	font-size: 28px;
+	padding-top: 5px;
+}
+.ps {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 20px;	
+}
