@@ -34,6 +34,10 @@ a:hover { /* if hovering over the page linker, do smth */
 	text-decoration: line-through;
 }
 
+#netlify-badge {
+	display: none !important;
+}
+
 button { /* what button? */
 	font-size: 50px;
 	background-color: blueviolet;
