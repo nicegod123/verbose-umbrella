@@ -7,6 +7,13 @@ body {
 	margin: 0; /* remove the invis gap around edges of screen */
 }
 
+body.inverted {
+	filter: invert(1);
+}
+body.inverted img {
+	filter: invert(1);
+}
+
 h1 {
 	/* i moved the website name to the middle */
 	text-align: center;
