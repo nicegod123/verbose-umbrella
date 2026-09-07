@@ -43,7 +43,7 @@ a:hover { /* if hovering over the page linker, do smth */
 button { /* what button? */
 	font-size: 50px;
 	background-color: blueviolet;
-	font-family: Comic Sans MS, cursive;
+	font-family: Preferred Font, Comic Sans MS, Consolas, generic-family;
 }
 button:hover { /* why is there a button? */
 	background-color: aqua;
@@ -52,7 +52,7 @@ button:hover { /* why is there a button? */
 }
 
 h1 {
-	font-family: Comic Sans MS, cursive;
+	font-family: 'Comic Sans MS', 'Consolas', cursive;
 }
 
 .liner {
@@ -67,21 +67,21 @@ h1 {
 	text-align: center; /* to align the text */
 	font-size: 30px;	/* to size the text */
 	padding-top: 5px;	/* to space out the text between others */
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', 'Consolas', serif;
 }
 
 .smlerheader {
 	text-align: center;
 	font-size: 28px;
 	padding-top: 5px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', 'Consolas', serif;
 }
 
 .evnsmlerheader {
 	text-align: center;
 	font-size: 24px;
 	padding-top: 5px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', 'Consolas', serif;
 }
 
 .ps {
