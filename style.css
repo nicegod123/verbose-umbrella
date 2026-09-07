@@ -16,8 +16,7 @@ body.inverted img {
 
 h1 {
 	/* i moved the website name to the middle */
-	text-align: center;
-	
+	text-align: center;	
 }
 
 
@@ -37,6 +36,16 @@ a:hover { /* if hovering over the page linker, do smth */
 
 #netlify-badge {
 	display: none !important;
+}
+
+
+#enlargeText {
+	font-size: 28px;
+	transition: font-size 0.5s ease-in-out;
+
+}
+#enlargeText:hover {
+	font-size: 40px;
 }
 
 
