@@ -5,6 +5,7 @@ body {
 	/*
 	font-family: 'Comic Sans MS', cursive; /* font */
 	margin: 0; /* remove the invis gap around edges of screen */
+	line-height: 1.6;
 }
 
 body.inverted {
@@ -40,12 +41,12 @@ a:hover { /* if hovering over the page linker, do smth */
 
 
 #enlargeText {
-	font-size: 28px;
+	font-size: var(--size, 28px);
 	transition: font-size 0.5s ease-in-out;
 
 }
 #enlargeText:hover {
-	font-size: 40px;
+	font-size: 32px;
 }
 
 
